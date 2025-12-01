@@ -14,7 +14,7 @@ export const TopRow = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 20px;
+  padding: 0.8em 1.4em;
 `;
 
 export const Brand = styled.h1`

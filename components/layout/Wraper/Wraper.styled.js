@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
 export const WraperStyled = styled.div`
-padding: 0 10em;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0 2em;
 `

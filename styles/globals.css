@@ -3,6 +3,10 @@
   --foreground: #171717;
   --main-color: #143C7A;
   --regular-white-color: #FFFFFF;
+  --section-one-bg-color: #D9DEEF80;
+  --deco-line-color: #87C0FD;
+  --header-paragraph-color: #475569;
+  --contact-button-color: #BE2A2A;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,7 +25,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Inter;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
