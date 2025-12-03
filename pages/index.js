@@ -3,6 +3,7 @@ import styles from "@/styles/Home.module.css";
 import Wraper from "@/components/layout/Wraper";
 import Navigation from "@/components/sections/Navigation";
 import Header from "@/components/sections/Header";
+import RepairAgd from "@/components/sections/RepairAgd";
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       </Head>
         <Navigation/>
         <Header/>
+        <RepairAgd/>
     </>
   );
 }
