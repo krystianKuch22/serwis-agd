@@ -9,7 +9,8 @@ export default function Contact() {
         <h2>
           skontaktuj się z nami <span>i zamów wizytę serwisanta</span>
         </h2>
-        <Button />
+        <a href="tel:+48502147044">502 147 044</a>
+        <a href="mailto:trserwis@gmail.com">trserwis@gmail.com</a>
       </div>
       <div className="img">
         <Image

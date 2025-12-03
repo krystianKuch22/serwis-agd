@@ -7,7 +7,7 @@ import Button from "@/components/common/Button";
 
 export default function Header() {
   return (
-    <HeaderContainer>
+    <HeaderContainer id="home">
         <Wraper>
             <div className="headerImg">
               <Image src="/headerImg.png" alt="hero image" fill style={{objectFit: "contain"}} priority/>
@@ -21,7 +21,7 @@ export default function Header() {
                 Naprawiamy i serwisujemy sprzęty AGD: pralki, lodówki, zmywarki, płyty indukcyjne i wiele innych. Dojeżdżamy do klienta - Łódź i okolice. 
             </p>
             <div className="contact-btn">
-                <Button/>
+                <Button isNavButton={true}/>
             </div>
         </Wraper>
     </HeaderContainer>

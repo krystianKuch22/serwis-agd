@@ -17,24 +17,27 @@ export const TopRow = styled.div`
   padding: 0.8em 1.4em;
 `;
 
-export const Brand = styled.h1`
-  margin: 0;
-  font-size: 1rem;
-  color: var(--regular-white-color);
-  text-transform: uppercase;
+export const Brand = styled.a`
+  h1 {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--regular-white-color);
+    text-transform: uppercase;
+  }
 `;
 
 export const Menu = styled.div`
   overflow: hidden;
   max-height: ${(p) => (p.open ? "60vh" : "0px")};
-  padding: ${(p) => (p.open ? "12px 20px" : "0 20px")};
+  padding: ${(p) => (p.open ? "3em 0" : "0")};
   transition: max-height 1000ms, padding 500ms;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2em;
 
-  a{
+
+  a {
     color: var(--regular-white-color);
   }
 `;

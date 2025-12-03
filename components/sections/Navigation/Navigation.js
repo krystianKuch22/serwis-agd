@@ -12,7 +12,7 @@ export default function Navigation() {
   return (
     <NavigationStyled>
       <TopRow>
-        <Brand>tr serwis - serwis agd</Brand>
+        <Brand href="#home"><h1>tr serwis - serwis agd</h1></Brand>
         <BurgerButton
           isOpen={open}
           onClick={toggle}
@@ -21,11 +21,11 @@ export default function Navigation() {
       </TopRow>
 
       <Menu open={open}>
-        <a href="#about-us">O nas</a>
-        <a href="#services">Nasze Usługi</a>
-        <a href="#brands">Urządzenia Marek</a>
-        <a href="#why-trust">Dlaczego warto nam zaufać?</a>
-        <a href="#contact">Kontakt</a>
+        <a href="#about-us" onClick={toggle}>O nas</a>
+        <a href="#services" onClick={toggle}>Nasze Usługi</a>
+        <a href="#brands" onClick={toggle}>Urządzenia Marek</a>
+        <a href="#why-trust" onClick={toggle}>Dlaczego warto nam zaufać?</a>
+        <a href="#contact" onClick={toggle}>Kontakt</a>
       </Menu>
     </NavigationStyled>
   );
