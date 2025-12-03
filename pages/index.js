@@ -7,6 +7,7 @@ import RepairAgd from "@/components/sections/RepairAgd";
 import Services from "@/components/sections/Services";
 import Brands from "@/components/sections/Brands";
 import WhyTrust from "@/components/sections/WhyTrust";
+import Contact from "@/components/sections/Contact";
 
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
         <Services/>
         <Brands/>
         <WhyTrust/>
+        <Contact/>
     </>
   );
 }
