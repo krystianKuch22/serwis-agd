@@ -9,6 +9,7 @@
   --contact-button-color: #BE2A2A;
   --titles-bg-color: #D9DEEF80;
   --tile-border-color: #E2E6EB;
+  --paragraph-color: #1E293B;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -41,5 +42,10 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+p{
+  color: var(--paragraph-color);
+  font-weight: 600;
 }
 

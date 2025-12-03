@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const BrandsStyled = styled.section`
-height: 30vh;
+min-height: 30vh;
 
 .brands-container {
     display: flex;

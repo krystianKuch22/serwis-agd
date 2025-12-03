@@ -6,6 +6,7 @@ import Header from "@/components/sections/Header";
 import RepairAgd from "@/components/sections/RepairAgd";
 import Services from "@/components/sections/Services";
 import Brands from "@/components/sections/Brands";
+import WhyTrust from "@/components/sections/WhyTrust";
 
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
         <RepairAgd/>
         <Services/>
         <Brands/>
+        <WhyTrust/>
     </>
   );
 }
