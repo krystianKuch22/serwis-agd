@@ -4,7 +4,7 @@ import Wraper from "@/components/layout/Wraper";
 
 export default function RepairAgd() {
   return (
-    <RepairAgdStyled>
+    <RepairAgdStyled id="about-us">
       <Wraper>
         <h2>naprawa agd</h2>
         <p>

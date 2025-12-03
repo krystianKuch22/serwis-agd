@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ContactStyled = styled.section`
   /* text-align: center; */
   min-height: 60vh;
+  scroll-margin-top: 4em;
 
 .first-div{
     height: 30vh;

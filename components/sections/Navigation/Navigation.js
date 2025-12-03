@@ -21,10 +21,10 @@ export default function Navigation() {
       </TopRow>
 
       <Menu open={open}>
-        <a href="#aboutUs">O nas</a>
+        <a href="#about-us">O nas</a>
         <a href="#services">Nasze Usługi</a>
         <a href="#brands">Urządzenia Marek</a>
-        <a href="#whyTrust">Dlaczego warto nam zaufać?</a>
+        <a href="#why-trust">Dlaczego warto nam zaufać?</a>
         <a href="#contact">Kontakt</a>
       </Menu>
     </NavigationStyled>

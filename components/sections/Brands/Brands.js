@@ -5,7 +5,7 @@ import Wraper from "@/components/layout/Wraper";
 
 export default function Brands() {
   return (
-    <BrandsStyled>
+    <BrandsStyled id="brands">
       <Title>urządzenia marek:</Title>
       <Wraper>
         <div className="brands-container">

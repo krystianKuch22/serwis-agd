@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Contact() {
   return (
-    <ContactStyled>
+    <ContactStyled id="contact">
       <div className="first-div">
         <h2>
           skontaktuj się z nami <span>i zamów wizytę serwisanta</span>

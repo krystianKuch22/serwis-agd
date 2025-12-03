@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const BrandsStyled = styled.section`
 min-height: 30vh;
+scroll-margin-top: 4em;
 
 .brands-container {
     display: flex;

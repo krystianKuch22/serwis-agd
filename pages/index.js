@@ -8,6 +8,7 @@ import Services from "@/components/sections/Services";
 import Brands from "@/components/sections/Brands";
 import WhyTrust from "@/components/sections/WhyTrust";
 import Contact from "@/components/sections/Contact";
+import Footer from "@/components/sections/Footer";
 
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
         <Brands/>
         <WhyTrust/>
         <Contact/>
+        <Footer/>
     </>
   );
 }

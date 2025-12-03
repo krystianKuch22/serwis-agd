@@ -5,7 +5,7 @@ import Wraper from "@/components/layout/Wraper";
 
 export default function Services() {
   return (
-    <ServicesStyled>
+    <ServicesStyled id="services">
       <Title>nasze usługi:</Title>
       <Wraper>
         <div className="services-container">

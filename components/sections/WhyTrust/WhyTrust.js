@@ -5,7 +5,7 @@ import Wraper from "@/components/layout/Wraper";
 
 export default function WhyTrust() {
   return (
-    <WhyTrustStyled>
+    <WhyTrustStyled id="why-trust">
       <Title>dlaczego warto nam zaufać</Title>
       <Wraper>
         <TrustTile
