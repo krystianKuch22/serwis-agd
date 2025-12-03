@@ -11,6 +11,10 @@ export const Button = styled.button`
   background: transparent;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
+
+  @media (min-width: 1200px) {
+    display: none;
+  }
 `;
 
 export const Box = styled.span`
