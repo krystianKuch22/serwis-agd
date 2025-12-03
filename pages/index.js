@@ -5,6 +5,7 @@ import Navigation from "@/components/sections/Navigation";
 import Header from "@/components/sections/Header";
 import RepairAgd from "@/components/sections/RepairAgd";
 import Services from "@/components/sections/Services";
+import Brands from "@/components/sections/Brands";
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
         <Header/>
         <RepairAgd/>
         <Services/>
+        <Brands/>
     </>
   );
 }

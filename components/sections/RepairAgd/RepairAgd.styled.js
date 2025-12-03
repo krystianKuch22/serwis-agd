@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const RepairAgdStyled = styled.section`
-padding: 2em 0;
+padding-top: 2em;
 min-height: 60vh;
 
 h2{
