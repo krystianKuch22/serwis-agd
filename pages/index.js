@@ -4,6 +4,7 @@ import Wraper from "@/components/layout/Wraper";
 import Navigation from "@/components/sections/Navigation";
 import Header from "@/components/sections/Header";
 import RepairAgd from "@/components/sections/RepairAgd";
+import Services from "@/components/sections/Services";
 
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         <Navigation/>
         <Header/>
         <RepairAgd/>
+        <Services/>
     </>
   );
 }

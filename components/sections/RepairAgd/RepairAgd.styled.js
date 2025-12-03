@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const RepairAgdStyled = styled.section`
 padding: 2em 0;
-height: 60vh;
+min-height: 60vh;
 
 h2{
     margin-bottom: .5em;
