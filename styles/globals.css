@@ -13,12 +13,12 @@
   --main-color-opacity: #143d7ad3;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #ffffff;
     --foreground: #000000;
   }
-}
+} */
 
 html,
 body {
