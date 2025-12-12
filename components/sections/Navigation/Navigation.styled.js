@@ -98,6 +98,10 @@ export const Menu = styled.div`
     max-height: none;
     gap: 1em;
     font-size: .8rem;
+
+    a{
+      font-size: .9rem;
+    }
   }
 `;
 

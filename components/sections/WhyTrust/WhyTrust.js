@@ -7,7 +7,7 @@ export default function WhyTrust() {
   return (
     <WhyTrustStyled id="why-trust">
       <Title>dlaczego warto nam zaufać</Title>
-      <Wraper>
+      <Wraper view="desktop">
         <TrustTile
           imgSrc="/whyTrust/specialist.svg"
           title="Zespół specjalistów"
