@@ -14,7 +14,7 @@ export default function Contact() {
       </div>
       <div className="img">
         <Image
-          src="/contactImg.png"
+          src="/contactImg.webp"
           alt="Kobieta oraz fachowiec podają sobie ręce"
           fill
           sizes="100vw"
