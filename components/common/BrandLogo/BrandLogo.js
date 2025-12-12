@@ -7,7 +7,8 @@ export default function BrandLogo({ logoImg, alt }) {
       <Image
         src={logoImg}
         alt={alt}
-        fill
+        width={150}
+        height={50}
         style={{ objectFit: "contain" }}
         loading="lazy"
       />
