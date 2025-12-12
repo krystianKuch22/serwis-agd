@@ -63,22 +63,24 @@ export const HeaderContainer = styled.header`
         width: 50%;
         gap: 1em;
 
-        h1{
+        h1 {
           text-align: left;
+          font-size: 4rem;
         }
 
-        P{
+        P {
           text-align: left;
+          font-size: 1.4rem;
         }
       }
 
-      .headerImg{
+      .headerImg {
         width: 50%;
-        height: 24em;
+        height: 30em;
       }
     }
 
-    .contact-btn{
+    .contact-btn {
       margin: 1em 0;
     }
   }
