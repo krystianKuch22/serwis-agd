@@ -17,8 +17,9 @@ export default function Contact() {
           src="/contactImg.png"
           alt="Kobieta oraz fachowiec podają sobie ręce"
           fill
+          sizes="100vw"
           style={{ objectFit: "cover" }}
-          priority
+          preload
           fetchPriority="high"
         />
       </div>
