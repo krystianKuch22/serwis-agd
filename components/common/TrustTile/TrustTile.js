@@ -8,6 +8,7 @@ export default function TrustTile({children, title, imgSrc, alt}) {
                     src={imgSrc}
                     alt={alt}
                     fill
+                    sizes="20vw"
                     style={{ objectFit: "contain" }}
                     priority
                   />
