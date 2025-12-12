@@ -5,7 +5,7 @@ import Wraper from "@/components/layout/Wraper";
 export default function RepairAgd() {
   return (
     <RepairAgdStyled id="about-us">
-      <Wraper>
+      <Wraper view="desktop">
         <h2>naprawa agd</h2>
         <p>
           Niesprawna pralka, lodówka, a może zmywarka? Doskonale rozumiemy jak
@@ -23,7 +23,7 @@ export default function RepairAgd() {
             src="/repairAgdImg.png"
             alt="hero image"
             fill
-            style={{ objectFit: "cover" }}
+            style={{ objectFit: "contain" }}
             priority
           />
         </div>

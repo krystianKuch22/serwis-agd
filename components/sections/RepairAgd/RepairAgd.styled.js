@@ -20,4 +20,25 @@ position: relative;
 width: 100%;
 height: 40vh;
 }
+
+@media (min-width: 1200px) {
+display: flex;
+align-items: center;
+justify-content: center;
+
+.desktop{
+    padding-right: 0;
+    flex-shrink: 2;
+}
+
+h2{
+    font-size: 3rem;
+}
+p{
+    font-size: 1.4rem;
+}
+.repair-agd-img {
+    height: 50vh;
+}
+}
 `
