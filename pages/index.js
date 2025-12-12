@@ -8,26 +8,25 @@ import WhyTrust from "@/components/sections/WhyTrust";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/sections/Footer";
 
-
 export default function Home() {
   return (
     <>
       <Head>
         <title>Naprawa AGD Łódź – TR Serwis Tadeusz Rosiak</title>
-        <meta name="description" content="Profesjonalna naprawa pralek, lodówek i innego sprzętu AGD w Łodzi. TR Serwis – szybka i uczciwa pomoc." />
+        <meta
+          name="description"
+          content="Profesjonalna naprawa pralek, lodówek i innego sprzętu AGD w Łodzi. TR Serwis – szybka i uczciwa pomoc."
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=The+Nautigal:wght@400;700&display=swap" rel="stylesheet"/>
       </Head>
-        <Navigation/>
-        <Header/>
-        <RepairAgd/>
-        <Services/>
-        <Brands/>
-        <WhyTrust/>
-        <Contact/>
-        <Footer/>
+      <Navigation />
+      <Header />
+      <RepairAgd />
+      <Services />
+      <Brands />
+      <WhyTrust />
+      <Contact />
+      <Footer />
     </>
   );
 }
