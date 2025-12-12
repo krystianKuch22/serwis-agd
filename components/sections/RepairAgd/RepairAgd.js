@@ -21,7 +21,7 @@ export default function RepairAgd() {
       <div className="repair-agd-img">
           <Image
             src="/repairAgdImg.png"
-            alt="hero image"
+            alt="Kobieta załamana zepsutą pralką"
             fill
             style={{ objectFit: "contain" }}
             priority

@@ -1,12 +1,12 @@
 import Image from "next/image";
 import { BrandLogoStyled } from "./BrandLogo.styled";
 
-export default function BrandLogo({ logoImg }) {
+export default function BrandLogo({ logoImg, alt }) {
   return (
     <BrandLogoStyled>
       <Image
         src={logoImg}
-        alt="hero image"
+        alt={alt}
         fill
         style={{ objectFit: "contain" }}
         priority

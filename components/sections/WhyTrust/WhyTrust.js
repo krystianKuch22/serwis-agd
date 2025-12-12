@@ -11,19 +11,20 @@ export default function WhyTrust() {
         <TrustTile
           imgSrc="/whyTrust/specialist.svg"
           title="Zespół specjalistów"
+          alt="obrazek z gronem specjalistów"
         >
           Nasz zespół to specjaliści z branży AGD z ogromnym doświadczeniem. Nie
           tylko naprawią szkodę, ale też doradzą i wesprą w obsłudze sprzętu.
         </TrustTile>
-        <TrustTile imgSrc="/whyTrust/guarante.svg" title="Gwarancja serwisowa">
+        <TrustTile imgSrc="/whyTrust/guarante.svg" title="Gwarancja serwisowa" alt="znaczek gwarancji">
           Po zakończeniu prac sprawdzamy działanie urządzenia i wystawiamy
           gwarancję serwisową.
         </TrustTile>
-        <TrustTile imgSrc="/whyTrust/location.svg" title="Naprawa na miejscu ">
+        <TrustTile imgSrc="/whyTrust/location.svg" title="Naprawa na miejscu " alt="pinezka lokalizacji">
           Po umówieniu dogodnego terminu, nasz technik przyjeżdża na miejsce,
           żeby zdiagnozować przyczynę awarii.
         </TrustTile>
-        <TrustTile imgSrc="/whyTrust/quick.svg" title="Szybka obsługa">
+        <TrustTile imgSrc="/whyTrust/quick.svg" title="Szybka obsługa" alt="klepsydra">
           Zdajemy sobie sprawę, że awaria sprzętu AGD wymaga jak najszybszej
           reakcji. Dlatego oferujemy jak najszybszy dojazd na miejsce usterki.
         </TrustTile>

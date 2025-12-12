@@ -9,16 +9,16 @@ export default function Services() {
       <Title>nasze usługi:</Title>
       <Wraper>
         <div className="services-container">
-          <ServiceTile img="/fridge.png">lodówka</ServiceTile>
-          <ServiceTile img="/vending.png">lodówka</ServiceTile>
-          <ServiceTile img="/dish.png">lodówka</ServiceTile>
-          <ServiceTile img="/frozer.png">lodówka</ServiceTile>
-          <ServiceTile img="/okap.png">lodówka</ServiceTile>
-          <ServiceTile img="/kitchen.png">lodówka</ServiceTile>
-          <ServiceTile img="/furnance.png">lodówka</ServiceTile>
-          <ServiceTile img="/fire.png">lodówka</ServiceTile>
-          <ServiceTile img="/induction.png">lodówka</ServiceTile>
-          <ServiceTile img="/dryer.png">lodówka</ServiceTile>
+          <ServiceTile img="/fridge.png" alt="Naprawa lodówki">Lodówka</ServiceTile>
+          <ServiceTile img="/vending.png" alt="Naprawa pralki">Pralka</ServiceTile>
+          <ServiceTile img="/dish.png" alt="Naprawa Zmywarki">Zmywarka</ServiceTile>
+          <ServiceTile img="/frozer.png" alt="Naprawa Zamrażarki">Zamrażarka</ServiceTile>
+          <ServiceTile img="/okap.png" alt="Naprawa Okapu">Okap</ServiceTile>
+          <ServiceTile img="/kitchen.png" alt="Naprawa Kuchenki">Kuchenka</ServiceTile>
+          <ServiceTile img="/furnance.png" alt="Naprawa piekarnik">Piekarnik</ServiceTile>
+          <ServiceTile img="/fire.png" alt="Naprawa płyty grzewczej">Płyta grzewcza</ServiceTile>
+          <ServiceTile img="/induction.png" alt="Naprawa płyty indukcyjnej">Płyta indukcyjna</ServiceTile>
+          <ServiceTile img="/dryer.png" alt="Naprawa suszarki">Suszarka</ServiceTile>
         </div>
       </Wraper>
     </ServicesStyled>

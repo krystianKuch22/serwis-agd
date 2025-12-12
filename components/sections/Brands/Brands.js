@@ -9,21 +9,21 @@ export default function Brands() {
       <Title>urządzenia marek:</Title>
       <Wraper>
         <div className="brands-container">
-          <BrandLogo logoImg="/brands/amica.svg" />
-          <BrandLogo logoImg="/brands/zelmer.svg" />
-          <BrandLogo logoImg="/brands/bosh.svg" />
-          <BrandLogo logoImg="/brands/whirlpool.svg" />
-          <BrandLogo logoImg="/brands/electrolux.svg" />
-          <BrandLogo logoImg="/brands/siemens.svg" />
-          <BrandLogo logoImg="/brands/aeg.svg" />
-          <BrandLogo logoImg="/brands/miele.svg" />
-          <BrandLogo logoImg="/brands/zanussi.svg" />
-          <BrandLogo logoImg="/brands/beko.svg" />
-          <BrandLogo logoImg="/brands/ardo.svg" />
-          <BrandLogo logoImg="/brands/candy.svg" />
-          <BrandLogo logoImg="/brands/indesit.svg" />
-          <BrandLogo logoImg="/brands/lg.svg" />
-          <BrandLogo logoImg="/brands/samsung.svg" />
+          <BrandLogo logoImg="/brands/amica.svg" alt="amica"/>
+          <BrandLogo logoImg="/brands/zelmer.svg" alt="zelmer"/>
+          <BrandLogo logoImg="/brands/bosh.svg" alt="bosh"/>
+          <BrandLogo logoImg="/brands/whirlpool.svg" alt="whirlpool"/>
+          <BrandLogo logoImg="/brands/electrolux.svg" alt="electrolux"/>
+          <BrandLogo logoImg="/brands/siemens.svg" alt="siemens"/>
+          <BrandLogo logoImg="/brands/aeg.svg" alt="aeg"/>
+          <BrandLogo logoImg="/brands/miele.svg" alt="miele"/>
+          <BrandLogo logoImg="/brands/zanussi.svg" alt="zanussi"/>
+          <BrandLogo logoImg="/brands/beko.svg" alt="beko"/>
+          <BrandLogo logoImg="/brands/ardo.svg" alt="ardo"/>
+          <BrandLogo logoImg="/brands/candy.svg" alt="candy"/>
+          <BrandLogo logoImg="/brands/indesit.svg" alt="indesit"/>
+          <BrandLogo logoImg="/brands/lg.svg" alt="lg"/>
+          <BrandLogo logoImg="/brands/samsung.svg" alt="samsung"/>
         </div>
       </Wraper>
     </BrandsStyled>

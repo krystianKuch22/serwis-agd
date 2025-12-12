@@ -11,7 +11,7 @@ export default function Header() {
         <div className="headerImg">
           <Image
             src="/headerImg.png"
-            alt="hero image"
+            alt="ludzik stojący przy pralce ze skrzynką narzędzi"
             fill
             style={{ objectFit: "contain" }}
             priority
@@ -51,7 +51,7 @@ export default function Header() {
         <div className="headerImg">
           <Image
             src="/headerImg.png"
-            alt="hero image"
+            alt="ludzik stojący przy pralce ze skrzynką narzędzi"
             fill
             style={{ objectFit: "contain" }}
             priority

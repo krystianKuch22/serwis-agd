@@ -15,7 +15,7 @@ export default function Contact() {
       <div className="img">
         <Image
           src="/contactImg.png"
-          alt="hero image"
+          alt="Kobieta oraz fachowiec podają sobie ręce"
           fill
           style={{ objectFit: "cover" }}
           priority
