@@ -14,7 +14,7 @@ export default function Navigation() {
       <TopRow>
         <div>
           <Brand href="#home">
-            <h1>tr serwis - serwis agd</h1>
+            <h2>tr serwis - serwis agd</h2>
           </Brand>
           <a href="https://maps.app.goo.gl/Jhw7LhHBBtprxduY9" className="desktop-info">
             ul. Kolumny 616, 93-649 Łódź

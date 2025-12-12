@@ -68,7 +68,7 @@ export const TopRow = styled.div`
 `;
 
 export const Brand = styled.a`
-  h1 {
+  h2 {
     margin: 0;
     font-size: 1rem;
     color: var(--regular-white-color);

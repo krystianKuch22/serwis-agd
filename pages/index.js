@@ -1,6 +1,4 @@
 import Head from "next/head";
-import styles from "@/styles/Home.module.css";
-import Wraper from "@/components/layout/Wraper";
 import Navigation from "@/components/sections/Navigation";
 import Header from "@/components/sections/Header";
 import RepairAgd from "@/components/sections/RepairAgd";

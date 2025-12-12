@@ -19,6 +19,7 @@ export default function Contact() {
           fill
           style={{ objectFit: "cover" }}
           priority
+          fetchPriority="high"
         />
       </div>
     </ContactStyled>

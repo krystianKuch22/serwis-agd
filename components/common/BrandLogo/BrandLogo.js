@@ -9,7 +9,7 @@ export default function BrandLogo({ logoImg, alt }) {
         alt={alt}
         fill
         style={{ objectFit: "contain" }}
-        priority
+        loading="lazy"
       />
     </BrandLogoStyled>
   );
