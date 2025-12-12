@@ -16,10 +16,14 @@ flex: 0 0 50%;
 .tileImg{
     position: relative;
     width: 100%;
-    height: 100px;
+    height: 8em;
 }
 
 h3{
     text-transform: uppercase;
+}
+@media (min-width: 1200px) {
+    max-width: 20%;
+    padding: 4em 0;
 }
 `

@@ -11,4 +11,10 @@ scroll-margin-top: 4em;
     justify-content: center;
     
 }
+
+@media (min-width: 1200px) {
+    .services-container{
+    gap: 2em;
+    }
+}
 `
